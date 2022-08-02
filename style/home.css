@@ -1,0 +1,107 @@
+/* Home */
+
+.home{
+    height: 100vh;
+    
+    
+}
+
+.typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 60px;
+    background-color: #870404;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.name{
+  color: #870404;
+  font-size: 5rem ;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.09em;
+}
+
+
+.btn-custom {
+    text-decoration: none;
+    border-color:#B50404;
+    background-color: black;
+    border-radius: 400px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    outline-style: none;
+    padding: 10px 20pxs;
+    margin-bottom: 5%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  .name{
+      font-size: 50px ;
+      text-transform: uppercase;
+      align-items: center;
+  }
+
+  .btn-custom {
+      margin-top: 50%;
+
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  #name{
+    
+      width: 35%;
+      align-items: center;
+  }
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  #name{
+    
+      width: 35%;
+      align-items: center;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+  #name{
+    
+      width: 75%;
+      align-items: center;
+  }
+
+}
+@media only screen and (min-width: 1030px) {
+
+  #name{
+    
+      width: 46%;
+      align-items: center;
+  }
+
+}
