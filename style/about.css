@@ -1,0 +1,38 @@
+#about{
+    background-color: black;
+    padding: 20 20px ;
+}
+
+.about-text{
+    font-size: large;
+}
+
+#ano:hover{
+    display: inline;
+}
+
+.experiencia0{
+
+    background-color: rgb(215, 4, 4);
+}
+
+.experiencia1{
+
+    background-color: rgb(188, 3, 3);
+}
+.experiencia2{
+
+    background-color: rgb(151, 4, 4);
+}
+.experiencia3{
+
+    background-color: rgb(91, 2, 2);
+}
+.experiencia4{
+
+    background-color: rgb(72, 1, 1);
+}
+
+.experiencia0:hover, .experiencia1:hover, .experiencia2:hover, .experiencia3:hover, .experiencia4:hover{
+    background-color: rgb(0, 0, 0);
+}
