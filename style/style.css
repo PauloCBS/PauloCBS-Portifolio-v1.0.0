@@ -1,2 +1,130 @@
 
 
+/* Background */
+body{
+    background: url(../imagens/1836491.jpg), center center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/* text */
+
+.texto__principal{
+
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+/* Screen ajustment */
+
+html, body, #home {
+    height: 100%;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.altura{
+        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+}
+
+
+
+/* Experiences */
+
+
+
+#experiences{
+    background-color: black;
+    padding: 20 20px ;
+    
+}
+.experience{
+    background-color: #f8f8f8;
+    padding: 20 20px ;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.card-img{
+    height: 183px;
+   
+
+}
+
+
+
+.company{
+    color: #870404;
+}
+
+.experiencia0{
+
+    background-color: rgb(215, 4, 4);
+}
+
+.experiencia1{
+
+    background-color: rgb(188, 3, 3);
+}
+.experiencia2{
+
+    background-color: rgb(151, 4, 4);
+}
+.experiencia3{
+
+    background-color: rgb(91, 2, 2);
+}
+.experiencia4{
+
+    background-color: rgb(72, 1, 1);
+}
+
+.experiencia0:hover, .experiencia1:hover, .experiencia2:hover, .experiencia3:hover, .experiencia4:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+/* Projects */
+
+#projects{
+    background-color: black;
+    padding: 20 20px ;
+}
+
+/* Skills */
+
+#skills{
+    background-color: black;
+    padding: 20 20px ;
+}
+
+.image{
+    width: 290px;
+    height: 352px;
+    
+}
+/* Contact */
+
+#contact{
+    
+    padding: 20 20px ;
+    
+}
+
+.contact_form{
+    background: rgba(144, 2, 2, 0.384);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+
