@@ -4,7 +4,7 @@ function year(ano){
         
         let test = document.getElementById('experience')
         test.style.display = "block"
-        test.innerHTML = " I started studying Agronomy at Federal University of Vicosa the best university for agricultural studies in Brazil"
+        test.innerHTML = "In 2017 after finishing high school. I started studying Agronomy at the Federal University of Vicosa the best university for agricultural studies in Brazil, I was passionate about technology in the farm and landscaping."
 
     }
     else if(ano == experience19){
@@ -12,24 +12,24 @@ function year(ano){
         let test = document.getElementById('experience')
         
         test.className = "text-white"
-        test.innerHTML = " I had the opotunity to participate at The Ohio Program and do an Internship Abroad with landscaping at Double eagle golf Club. The internship was sponsored by the Ohio State University." 
+        test.innerHTML = "In 2019  I had the opportunity to participate in The Ohio Program and do an Internship Abroad in Ohio with landscaping at Double eagle golf Club. It was a great experience to improve my English skills and get to know better the American culture." 
         
     }
     else if(ano == experience20){
         let test = document.getElementById('experience')
         test.style.display = "inline"
-        test.innerHTML = "I Started studying system analisys and devlopment and working at Tecocomp as Apple Support specialist"
+        test.innerHTML = "In 2020 I went back to Brazil and Started studying system analysis and development at Anhembi Morumbi University, during this same year I did  a Coursera course Google IT support Certificate and my first course of programming introduction"
     }
     else if(ano == experience21){
         let test = document.getElementById('experience')
         test.style.display = "inline"
-        test.innerHTML = " This was mas first year as service desk at Tecnocomp working for Afry Brasil, United States of America and Canada. Besides, I decided to dive into the development world and since then I´m in love for front-end devlopment.  "
+        test.innerHTML = " in 2021, I started to work as ServiceDesk at Tecnocomp working for Afry Brasil, United States of America, and Canada. Besides, I decided to dive into the Front End development world."
 
     }
     else if(ano == experience22){
         let test = document.getElementById('experience')
          test.style.display = "inline"
-        test.innerHTML = "I decided to live in Lisbon, and started to working for FAS as a helpdesk technician for NOS."
+        test.innerHTML = "In 2022 I moved to Lisbon Portugal and started working at FAS as a Helpdesk Technician for NOS and started studying ServiceNow development as well. "
     }
     
     

@@ -1,23 +1,21 @@
 /* navigation bar */
 
 .logo {
-    
   width: fit-content;
   height: 100%;
-  
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background:#060606e6;
   height: 8%;
   padding: 10px;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
+  z-index: 999;
 }
 
 
@@ -41,10 +39,10 @@ nav {
 
 .nav-list li a:hover {
     opacity: 0.5;
-  }
+}
+
 
 /* Mobile */
-
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -117,8 +115,7 @@ nav {
 }
 
 /* gradient red border */
-
-.marginbtm {
+.border-btm {
   border-style: solid;
   border-width: 3px;
   -webkit-border-image: -webkit-linear-gradient(

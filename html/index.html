@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="theme-color" content="#000000">
+
 <!-- RESET CSS -->
-    <link rel="stylesheet" href="../style/reset.cs">
+    <link rel="stylesheet" href="../style/reset.css">
 
 <!-- Bootstrap only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -27,207 +29,220 @@
     <title>Paulo Silva - Portifolio</title>
 
 </head>
-<body>
-
+<body >
+  
 <!--Navigation bar--> 
-<header>
-    <nav class="navbar-nav flex-row marginbtm">
-        
-        <a href="#" class="logo">Logo</a>
+    <header>
+        <nav class="flex-row border-btm">
 
-<!--Menu toggle--> 
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+    <!--logo--> 
+            <a href="#" class="logo text-white"><p> 'PS' </p></a>
 
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <!--Menu toggle--> 
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
 
-    </nav>
-
-</header>
+    <!--Menu list--> 
+            <ul class="nav-list">
+                <li><a href="#home" rel="noopener noreferrer">Home</a></li>
+                <li><a href="#about" rel="noopener noreferrer">About</a></li>
+                <li><a href="#projects" rel="noopener noreferrer">Projects</a></li>
+                <li><a href="#contact" rel="noopener noreferrer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
 <!--Home--> 
-    <section id="home" class="container">
-       
-          <div class="text-center align-self-center home" style="background-color: rgb(0, 0, 0);">
-            <p class="text-white display-3">Hi, I'm</p>
-            <div class="typing-container">
-                <span id="sentence" class="sentence name" style="color:#870404 ;"><span style="display: none;">Paulo Silva</span></span>
-                <span class="input-cursor name"></span>
+    <section id="home" >
+          <div class="row">
+            <div class="home-text">
+              <p class="display-3 mb-0 ">Hello, I am</p>
+
+    <!--typing effect--> 
+              <div class="typing-container">
+                  <span id="sentence" class="sentence name"><span style="display: none;">Paulo Silva</span></span>
+                  <span class="input-cursor"></span>
+              </div>
+
+              <p class="display-3">Front-End Developer Jr.</p>
+              <p class="intro">Welcome to my portfolio. Here you will find some projects that I've been working on, some of my skills, and get to know a little more about me!</p>
+              <button class="btn btn-custom m-5"><a rel="noopener noreferrer"  href="https://www.linkedin.com/in/paulo-cesar-b-308147124/" class="text text-white" style="text-decoration:none ;">linkedin</a></button>
+              
+
             </div>
-            <p class="text-white  display-3">Front-End Developer Jr.</p>
-            <button class="btn btn-lg btn-custom mt-5"><a href="https://www.linkedin.com/in/paulo-cesar-b-308147124/" class="text text-white" style="text-decoration:none ;">linkedin</a></button>
-
-
-        </div>
-        </div>
+          </div>
     </section>
 
 <!--About--> 
-    <section id="about" style="background-color: rgb(0, 0, 0); width: 100%; margin: ;">
-        <div class="container">
-            <h3 class="text-center" >About</h3>
+    <section id="about">
+        <div class="container about-background">
+            <h3 class="text-center display-3" >About</h3>
             <div class="row">
-                <div class="col-12" style="background-color:darkred;"></div>
+                <div class="col-12 mb-5" style="background-color:darkred;"></div>
             </div>
             <div>
                 <div class="row">
-                    <div class="col-md-4"><img src="../images/funko-removebg-preview.png" alt=""></div>
+                  <div class="col-md-4"><img src="../images/funko-removebg-preview.png" alt=""></div>
                     <div class="col-md-8">
-                    <p class="text-justify mt-5" >Hi, I'am Paulo Silva,
-                      <br>I'm a student of system analysis and development, I've been always passionated about techonology, nature and cultures. I'm also creative, curious, dedicated and entusiastic of improoving recipes. 
-                        In here you can find more information about me that's not in my linkedin.
+                    <p class="text-justify mt-5" >
+                      Hi, I am Paulo Silva,<br>
+                      I am a systems analysis and development student.
+                      I have always been passionate about technology, nature, cuisine, and
+                      experiencing new cultures. I'm also creative, curious, dedicated, and enthusiastic about inventing recipes. Here on my website, you can find more information about me that is not on my LinkedIn or GitHub.
                       <br>
-                        
-                       click on the timeline below. <br>
-         
-                        I hope you like it 😊</p>
-
-                <div class="progress mt-5">
-                    <div id="experience17" class="progress-bar experiencia0" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience17)" >2017</div>
-                    <div id="experience19" class="progress-bar experiencia1" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience19)">2019</div>
-                    <div id="experience20" class="progress-bar experiencia2" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience20)">2020</div>
-                    <div id="experience21" class="progress-bar experiencia3" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience21)">2021</div>
-                    <div id="experience22" class="progress-bar experiencia4" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience22)">2022</div>                      
-                </div>
-                <br/>
-                <br/>
-                
-                <div id="experience" style="display: none;" class="text-white"><p>
-                </p></div>
-          
-                          </div>
+                      <br>
+                      Click on the timeline below for more information.
+                      I hope you like it 😊
+                      <br>
+                      <br>
+                      <div class="progress mt-5">
+                        <div id="experience17" class="progress-bar experiencia0" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience17)" >2017</div>
+                        <div id="experience19" class="progress-bar experiencia1" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience19)">2019</div>
+                        <div id="experience20" class="progress-bar experiencia2" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience20)">2020</div>
+                        <div id="experience21" class="progress-bar experiencia3" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience21)">2021</div>
+                        <div id="experience22" class="progress-bar experiencia4" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" onmouseover="year(experience22)">2022</div>                      
                       </div>
+                      <br/>
+                      <br/>
+                  
+                      <div id="experience" style="display: none;" class="text-white"><p>
+                      </p>
                     </div>
+                    </div>
+                      </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
 
 <!--Projects--> 
-    <section id="projects" style="background-color: rgb(0, 0, 0);">
+    <section id="projects" >
         <div class="container" >
             
-            <h3 class="text text-center text-white display-3" >Projects</h3>
+            <h3 class="text text-center display-3" >Projects</h3>
+            
             <div class="row">
-                <div class="col-md-12 mb-2" style="background-color:darkred;"></div>
+                <div class="col-md-12 mb-5" style="background-color:darkred;"></div>
             </div>
         
                 <div class='row mb-5'>
-                    <div class="col-md-3 col-sm-12 mb-2">
+                    <div class="col-md-4 col-sm-12 mb-2">
                          <div class='card test-card' >
                             <div style="width: 100%">
                                 <img class="card-img-top" src="../images/helpDesk.png" alt="Card image cap">
                                 <div class="card-body" >
                                   <h5 class="card-title">App HelpDesk</h5>
-                                  <p class="card-text">Aplicação para Abertura e Gerenciamento de pedidos e Incidentes de acordo com o tipo de utilizador.
+                                  <p class="card-text">Application for Opening and Management of request and Incidents according to the group belonging to the user.
                                     <br/>
+                                    login: e-mail: user@test.com pw:123456 <br><br>
                                     <br/>
                                     #XAMPP #PHP7 #HTML #CSS</p>
-                                  <a href="http://localhost/app_help_desk/index.php" class="btn btn-primary">See more</a>
+                                  <a href="../app_help_desk/index.php" rel="noopener noreferrer" class="btn btn-primary">See more</a>
                                 </div>
                               </div>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-12 mb-2">
+                    <div class="col-md-4 col-sm-12 mb-2">
                          <div class='card test-card' >
                             <div style="width: 100%">
                                 <img class="card-img-top" src="../images/sendMail.png" alt="Card image cap">
                                 <div class="card-body" >
                                   <h5 class="card-title">App Send Mail</h5>
-                                  <p class="card-text">Aplicação para envio de e-mail utilizando o outlook como servidor SMTP e a biblioteca PHPMailer. 
+                                  <p class="card-text">Application Developed for sending e-mails using outlook as a SMTP server and the PHPMailer library.
                                     <br/>
+                                    it will be availiable soon.
                                     <br/>
-                                    #XAMPP #PHP7O.O #HTML #Bibliotecas</p>
-                                  <a href="http://localhost/app_send_mail/" class="btn btn-primary">See more</a>
+                                    #XAMPP #PHP7O.O #HTML #PHP Libary</p>
+                                  <a href="#" rel="noopener noreferrer" class=" btn btn-proj btn-primary" style="display:none;">See more</a>
                                 </div>
                               </div>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-12 mb-2">
+                    <div class="col-md-4 col-sm-12 mb-2">
                       <div class='card test-card' >
                          <div style="width: 100%">
                              <img class="card-img-top" src="../images/moneyLogo.png" alt="Card image cap">
                              <div class="card-body" >
                                <h5 class="card-title">App Personal Budget</h5>
-                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                               <a href="C:\Users\Paulo Cesar\Desktop\Paginas WEB\desafio 15 - Aplicacao de Orcamento pessoal\html\index.html" class="btn btn-primary">See more</a>
+                               <p class="card-text">Application developed to help in the control and planning of financial resources.
+                                <br/>
+                                <br/>
+                                    #JavaScript #Bootstrap #HTML #CSS
+                               </p>
+                               <a href="../desafio 15 - Aplicacao de Orcamento pessoal/html/index.html"  rel="noopener noreferrer" class="btn btn-primary">See more</a>
                              </div>
                            </div>
                       </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-12 mb-2">
-                         <div class='card test-card' >
-                            <div style="width: 100%">
-                                <img class="card-img-top" src="../images/maplogo1.png" alt="Card image cap">
-                                <div class="card-body" >
-                                  <h5 class="card-title">App Address Search - Brazil</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">See more</a>
+                   <span id="more"  class="row more-projects" style="display: none;">
+                        <div class='row cards-more'>
+                          <div class="col-md-4 col-sm-12 mb-2">
+                            <div class='card test-card' >
+                              <div style="width: 100%">
+                                  <img class="card-img-top" src="../images/maplogo1.png" alt="Card image cap">
+                                  <div class="card-body" >
+                                    <h5 class="card-title">App Address Search - Brazil</h5>
+                                    <p class="card-text">This webpage will help you to find an address in Brazil using the postal code.
+                                      <br/>
+                                      <br/>
+                                      #HTML #Javascript #JSON #CSS #Bootstrap
+                                    </p>
+                                    <a href="../App Address Search/" class="btn btn-primary">See more</a>
+                                  </div>
                                 </div>
-                              </div>
-                         </div>
-                    </div>
-
-                   
-
-                   <span id="more"  class="row"
-                    style="display: none; 
-                   padding-right: 0px;
-                   padding-left: 0px;
-                   margin-right: 0px;
-                   margin-left: -0;">
-                    <div class='row mb3' style="
-                    padding-right: 0px;
-                    padding-left: 0px;
-                    margin-right: 0px;
-                    margin-left: -0;" >
-                        <div class="col-md-3 col-sm-12 mb-2">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 mb-2">
                           <div class='card test-card' >
                              <div style="width: 100%">
                                  <img class="card-img-top" src="../images/spotify.png.png" alt="Card image cap">
                                  <div class="card-body" >
                                    <h5 class="card-title">Spotify</h5>
-                                   <p class="card-text">Projeto inspirado no Spotify, feito utilizando HTML, CSS e Bootstrap
+                                   <p class="card-text">This project was inspired on spotify webpage.
                                     <br/>
                                     <br/>
-                                    #Bootstrap #HTML #CSS</p>
-                                   <a href="#" class="btn btn-primary">See more</a>
+                                    #Bootstrap #HTML #CSS #responsive</p>
+                                   <a href="../Projeto Spotify/index/index.html" class="btn btn-primary">See more</a>
                                  </div>
                                </div>
                           </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-12 mb-2">
+                        <div class="col-md-4 col-sm-12 mb-2">
                           <div class='card test-card' >
                              <div style="width: 100%">
                                  <img class="card-img-top" src="../images/mosca.png" alt="Card image cap">
                                  <div class="card-body" >
-                                   <h5 class="card-title">Game Mata Mosquito</h5>
-                                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                   <a href="#" class="btn btn-primary">See more</a>
+                                   <h5 class="card-title">Game catch the Mosquito</h5>
+                                   <p class="card-text">A little game built using javascript.
+                                    <br/>
+                                    <br/>
+                                    #JavaScript #HTML #CSS
+                                   </p>
+                                   <a href="../Desafio 11 - Jogo Mata Mosquito/html/index.htm" class="btn btn-primary">See more</a>
                                  </div>
                                </div>
                           </div>
                         </div>
-                        <div class="col-md-3 col-sm-12 mb-2">
+                        <div class="col-md-3 col-sm-12 mb-2" style="display: none;">
                           <div class='card test-card' >
                              <div style="width: 100%">
                                  <img class="card-img-top" src="../images/CSS.png" alt="Card image cap">
                                  <div class="card-body" >
-                                   <h5 class="card-title">TecBlog</h5>
-                                   <p class="card-text">Webvsite sobre tecnologia desenvolvido utilizando HTML e CSS</p>
-                                   <a href="#" class="btn btn-primary">See more</a>
+                                   <h5 class="card-title">Coming Soon</h5>
+                                   <p class="card-text">I'm working on it.
+                                   <br/>
+                                    <br/>
+                                    #HTML #CSS
+                                  </p>
+                                   <a href="#" class="btn btn-primary" style="display:none;">See more</a>
                                  </div>
                                </div>
                           </div>
@@ -239,13 +254,12 @@
                                  <img class="card-img-top" src="../images/CSS.png" alt="Card image cap">
                                  <div class="card-body" >
                                    <h5 class="card-title">Coming Soon</h5>
-                                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                   <a href="#" class="btn btn-primary">See more</a>
+                                   <p class="card-text">I'm working on it.</p>
+                                   <a href="#"  style="display:none;" class="btn btn-primary">See more</a>
                                  </div>
                                </div>
                           </div>
                         </div>
-
                         
                    </span>
             </div>
@@ -257,13 +271,20 @@
     </section>
 
 <!--Contact--> 
-    <section id="contact" style="background-color: rgb(0, 0, 0);">
-        <div class=" container text-center  width align-content-center align-self-center mt-5 ">
-            <h3 class="text text-white display-3 text-center">Contact</h3>
+    <section id="contact" class="mb-5">
+        <div class=" container text-center mt-5">
+            <h3 class="text display-3 text-center">Contact</h3>
             <div class="row">
+              <div class="col-md-12 mb-5"></div>
+          </div>
+
+            <div class="row">
+
               <div class="col-md-6 col-sm-12">
+
                 <form action="https://formsubmit.co/paulo-cesar-silva@outlook.com" method="POST">
-                    <div class="form-group text-white">
+                    
+                  <div class="form-group">
                         <label  class="align-start" for="formGroupExampleInput"></label>
                         <input required type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="Name">
                     
@@ -278,17 +299,17 @@
                     
                     </div>
                     <div class="container">
-                        <button class="btn btn-success btn-block" type="submit">Enviar</button>
+                        <button class="btn btn-success btn-block" type="submit">Send</button>
                     </div>
                </form>
             </div>
             
             <div class="col-md-6 image col-sm-12">
               <h3 class="text-white mt-5">Social Midia</h3>
-              <p class="text-white col-sm-6 p-0">Let's get in touch and please let me know what do you think about my portifolio. You can find more projects at my github down below or add me in your linkedin.</p>
-                <div class="row mt-5">
-                  <div class="col-6"><a href="https://www.linkedin.com/in/paulo-cesar-b-308147124/"><img src="./imagens/linkedin2.png" class="img-fluid socialMedia"  alt=""></a></div>
-                  <div class="col-6"><a href="https://github.com/PauloCBS?page=2&tab=repositories"><img src="./imagens/github (2).png" class="img-fluid socialMedia" alt=""></a></div>
+              <p class="text-white col-sm-12 p-0">Let's get in touch and please let me know what you think about my portfolio. You can find more projects on my GitHub down below or add me on your LinkedIn.s</p>
+                <div class="row mt-5 mb-5">
+                  <div class="col-6"><a href="https://www.linkedin.com/in/paulo-cesar-b-308147124/"><img src="../images/linkedin2.png" class="img-fluid socialMedia"  alt=""></a></div>
+                  <div class="col-6"><a href="https://github.com/PauloCBS"><img src="../images/github (2).png" class="img-fluid socialMedia" alt=""></a></div>
                 </div>
             </div>
             </div>
@@ -296,16 +317,17 @@
     </section>
 
 <!-- Footer -->
-    <footer id="footer" style="background-color: rgb(49, 0, 0);">
-        <p class="text-center">Pagina Feita por Paulo Silva 2022</p>
+    <footer id="footer">
+        <p class="text-center text-dark mb-0"> Made by  Paulo Silva 2022 - Version 0.0.01</p>
     </footer>
 
 <!-- JavaScript -->
-    <script src="../javaScript/navBar.js"></script>  
-    <script src="../javaScript/home.js"></script>  
+
+    <script src="../javaScript/home.js"></script> 
+    <script src="../javaScript/navBar.js"></script>   
     <script src="../javaScript/about.js"></script>
     <script src="../javaScript/projects.js"></script>
-    <script src="../javaScript/contact.js" ></script>
+    
 
 <!-- JavaScript Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
